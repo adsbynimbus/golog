@@ -1,6 +1,6 @@
 // The MIT License (MIT)
 //
-// Copyright (c) 2014 timehop
+// Copyright (c) 2023 Nimbus Advertising Solutions Inc
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -27,8 +27,9 @@
 // balance between being human readable and easy to write parsing tools for.
 //
 // Examples:
-//   ERROR | MyLibrary | Could not connect to server. | url='http://timehop.com/' error='timed out'
-//   INFO  | MyLibrary | Something happened.
+//
+//	ERROR | MyLibrary | Could not connect to server. | url='http://adsbynimbus.com/' error='timed out'
+//	INFO  | MyLibrary | Something happened.
 package log
 
 import (
